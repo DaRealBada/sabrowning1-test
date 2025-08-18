@@ -8,9 +8,9 @@ app.post('/', (req, res) => {
 doctype
 html
 head
-    title= 'Hello world'
+    title= 'Hello worlv'
 body
-    form(action='/' method='post')
+    form(action='/' method='get') // should be change to post method
         input#name.form-control(type='text)
         button.btn.btn-primary(type='submit') Submit
     p Hello `+ input
