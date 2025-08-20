@@ -10,7 +10,7 @@ html
 head
     title= 'Hello worldz'
 body
-    form(action='/' method='post') // should be corrected to post method
+    form(action='/' method='get') // should be corrected to post method
         input#name.form-control(type='text)
         button.btn.btn-primary(type='submit') Submit
     p Hello `+ input
